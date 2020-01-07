@@ -27,5 +27,28 @@ var DIGIT_VALUES = {
 };
 
 var translateRomanNumeral = function(romanNumeral) {
-  // TODO: Implement me!
+  for (var i=0; i=romanNumeral.length; i++){
+    return DIGIT_VALUES.value(i)
+  } for (var i=0; i=romanNumeral[1]; i++) {
+    
+  }
+
+  
+  
+  // for (var i=1; i<4; i++){
+  //   return I.concat(I);
+  // } 
+  // for (var i=4; i<5; i++){
+  //   return I.concat(V);
+  // }
+  // for (var i=5; i<8; i++){
+  //   return V.concat(I++);
+  // }
+  // for (var i=9; i<10; i++){
+  //   return I.concat(X);
+  // }
+  // for (var i=10; i<20; i++){
+  //   return I.concat(I);
+  // }  
 };
+
