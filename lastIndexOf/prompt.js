@@ -6,3 +6,15 @@ function lastIndexOf(target, array) {
     return lastIndexOf(target);
   }
 }
+
+function lastIndexOf(target, array) {
+  for (var i =0; i=array.length; i++){
+    const a = IndexOf(target);
+    return a;
+  }
+  if (a < array.length){
+    for (var i = a+1; i=array.length; i++){
+      return a;
+    }
+  }
+}
